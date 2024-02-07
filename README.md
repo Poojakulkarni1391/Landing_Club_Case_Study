@@ -1,52 +1,57 @@
-# Project Name
-> Outline a brief description of your project.
+# Landing Club Case Study
+
+Landing Club Case Study project details:
+
+The case study focuses on EDA mainly, to understand which parameters are major to detect whether a customer will default loan or not. Pesented a PPT to illustrate the major parameter to consider while giving loans along their data distributions.
+
+Contributors: Pooja Kulkarni
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* Business Understanding
+* Data Cleaning
+* Univariate Analysis
+* Bivariate Analysis
+* Conclusion
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+Business Understanding											
+	consumer finance company which specialises in lending various types of loans to urban customers.										
+											
+Steps											
+	Company receives loan application										
+	Decision is made for the approval based on applicant's profile									
+											
+Types of risks											
+	Applicant repays the loan -> then not approving will be loss to the business										
+	Applicant do not repay the loan -> he/she considered "Default" -> this again is loss to the finance of the company										
+											
+Aim											
+	"identify patterns which indicate if a person is likely to default, 
+which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc."										
+																						
+Types of Decisions											
+											
+Loan Accepted											
+											
+Fully Paid			                        Current			                          Charged-off					
+the principal and the interest rate			process of paying the instalments			Not paid instalments and are defaulted					
+											
+Loan Rejected	
+"the candidate does not meet their requirements and 
+thus there is no transactional history of those applicants with the company and so this data is not available with the company "					
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Lending club company should reduce the high interest loans for 60 months tenure, they are prone to loan default.
 
+Grades are good metric for detecting defaulters. Lending club should examine more information from borrowers before issuing loans to Low grade (G to A).
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Lending Club should control their number of loan issues to borrowers who are from CA, FL and NY to make profits.
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+Small business loans are defaulted more. Lending club should stop/reduce issuing the loans to them.
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+Borrowers with mortgage home ownership are taking higher loans and defaulting the approved loans. Lending club should stop giving loans to this category when loan amount requested is more than 12000.
 
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+When employment length is 10yrs and loan amount is 12k-14k, defaulters are expected more.
